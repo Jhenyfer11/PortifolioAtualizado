@@ -43,11 +43,19 @@ body {
     background-position: 165% 40%;
 
     position: relative;
-    background-color: #7007c17b;
+    background-color: #7007c145;
+
+}
+
+header video {
+
+    max-width: 100%;
+
 }
 
 header {
     height: 165px;
+    unicode-bidi: isolate;
 }
 
 header button {
@@ -66,11 +74,13 @@ header .container-grid {
     align-items: center;
 }
 
+
 .menu {
-    width: 700px;
+   width: 700px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    
 }
 
 .menu a {
@@ -153,7 +163,8 @@ header .container-grid {
 
 
 #sobre {
-    height: 450px;
+    
+    height: 600px;
     padding: 70px 15%;
     margin-bottom: 25px;
 
@@ -166,7 +177,7 @@ header .container-grid {
 
 #sobre h2 {
     width: 400px;
-    height: 100px;
+    height: 800px;
 
 
     font-size: 32px;
@@ -188,3 +199,109 @@ header .container-grid {
 
     font-family: "Montserrat";
 }
+
+
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 100%;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .sidebar img {
+    width: 50px;
+    margin-bottom: 80px;
+  }
+  
+  .sidebar nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+  
+  .sidebar nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    
+    font-family: "Montserrat";
+    margin-top: 80px;
+  }
+  
+  .sidebar nav a:hover {
+    color: #9d4edd;
+  }
+  
+  /* Main content */
+  main {
+    margin-left: 70px;
+  }
+ 
+  
+  /* Contato */
+  .contato h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+
+    font-family: "Montserrat";
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  input, textarea {
+    padding: 12px;
+    border: 2px solid #9d4edd;
+    background: #222;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px;
+    background: linear-gradient(90deg, #3c007a, #9d4edd);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .hero {
+      height: auto;
+      padding: 60px 20px;
+    }
+  
+    .sidebar {
+      width: 55px;
+    }
+  
+    main {
+      margin-left: 55px;
+    }
+  }
