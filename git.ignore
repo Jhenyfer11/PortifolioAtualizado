@@ -13,3 +13,33 @@
                     </svg>
                 </button>
             </div>
+
+
+
+
+
+            
+
+.menu {
+   width: 700px;
+
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.menu a {
+    font-size: 18px;
+    font-family: 'Montserrat';
+
+    color: white;
+
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+
+    transition: text-decoration 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: white;
+}
