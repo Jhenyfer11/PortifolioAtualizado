@@ -77,12 +77,14 @@ body {
 
 
 /* Contato */
-.contato h3 {
+.contato h2 {
     font-size: 32px;
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 10%;
 
     font-family: "Montserrat";
+    color: white;
 }
 
 form {
@@ -93,14 +95,32 @@ form {
     gap: 20px;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
 input,
-textarea {
+textarea{
     padding: 12px;
     border: 2px solid #9d4edd;
     background: #222;
     border-radius: 6px;
     color: #fff;
     font-size: 16px;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: white;
+    font-family: "Montserrat";
+    margin-bottom: 10px;
+    font-size: 15px;
+
 }
 
 button {
