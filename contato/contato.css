@@ -95,13 +95,13 @@ form {
     gap: 20px;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
 }
 
 input,
-textarea{
+textarea {
     padding: 12px;
     border: 2px solid #9d4edd;
     background: #222;
@@ -115,7 +115,7 @@ textarea{
     flex-direction: column;
 }
 
-label{
+label {
     color: white;
     font-family: "Montserrat";
     margin-bottom: 10px;

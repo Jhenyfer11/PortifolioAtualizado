@@ -43,8 +43,6 @@ body {
   background-position: 165% 40%;
 
   position: relative;
-
-
 }
 
 header video {
@@ -109,17 +107,17 @@ header .container-grid {
   border-right: 5px solid var(--laranja-gamifica);
 
   animation:
-      digitando 2s steps(40, end),
-      cursor 0.75s step-end infinite;
+    digitando 2s steps(40, end),
+    cursor 0.75s step-end infinite;
 }
 
 @keyframes digitando {
   from {
-      width: 0;
+    width: 0;
   }
 
   to {
-      width: 100%;
+    width: 100%;
   }
 }
 
@@ -127,11 +125,11 @@ header .container-grid {
 
   from,
   to {
-      border-color: transparent;
+    border-color: transparent;
   }
 
   50% {
-      border-color: var(--laranja-gamifica);
+    border-color: var(--laranja-gamifica);
   }
 }
 
@@ -168,7 +166,7 @@ header .container-grid {
   text-decoration: none;
   font-size: 18px;
   transition: 0.3s;
-  
+
   font-family: "Montserrat";
   margin-top: 80px;
 }
@@ -185,7 +183,7 @@ main {
 
 
 #tecnologias {
-  
+
   height: 600px;
   padding: 40px 5%;
   margin-bottom: 20px;
@@ -243,12 +241,69 @@ main {
   border: 4px solid #c179dec5;
   padding: 2%;
   border-radius: 14px;
- 
+
+}
+
+#sobre {
+  height: 800px;
+  max-width: 95%;
+
+  padding: 45px 5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+
+}
+
+#sobre h3 {
+  font-size: 32px;
+  font-family: "Montserrat";
+
+  text-align: left;
+
+  line-height: 1.8;
+  font-weight: bold;
+  color: white;
+
+  margin-bottom: 15px;
+
 }
 
 
+#sobre p {
+  width: 800px;
+  color: white;
 
+  font-family: "Montserrat";
+  font-weight: 350;
 
+  font-size: 18px;
+  line-height: 1.8;
+
+  margin-bottom: 80px;
+}
+
+#sobre span {
+  font-weight: 500;
+  color: #e0b9f0;
+}
+
+#sobre a {
+  color: #9d4edd;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+  font-weight: bold;
+
+  font-family: "Montserrat";
+  margin-top: 80px;
+}
+
+#sobre a:hover {
+  color: #fff;
+}
 
 
 
