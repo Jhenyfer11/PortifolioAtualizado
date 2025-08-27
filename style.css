@@ -194,6 +194,7 @@ main {
   justify-content: space-between;
 
   text-align: left;
+  align-items: center;
 }
 
 
@@ -294,18 +295,27 @@ main {
   color: #9d4edd;
   text-decoration: none;
   font-size: 18px;
-  transition: 0.3s;
+  transition: 0.5s;
   font-weight: bold;
 
   font-family: "Montserrat";
-  margin-top: 80px;
+
 }
 
 #sobre a:hover {
   color: #fff;
 }
 
+.contatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contatar a{
+  display: flex;
+  margin-right: 2px;
 
+}
 
 
 
